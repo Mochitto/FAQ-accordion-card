@@ -3,13 +3,7 @@
  ****************************** */
 /* ---------  VARIABLES (hidden in css)  ----------- */
 /* ----- Base Colors ----
- * $main-background: 
- * $secondary-background:
- * $accent-background:  
- * $main-color: 
- * $secondary-color: 
- * $accent-color:
- * $ancillary-color:  */
+ * $accent-background: */
 /* ---------  NORMALIZE  ----------- */
 /* Box sizing rules */
 * {
@@ -73,6 +67,9 @@ html {
 .large-text {
   line-height: 1.2; }
 
+html {
+  font-family: "Kumbh Sans", sans-serif; }
+
 /******************************
  *            LAYOUT          *
  ****************************** */
@@ -102,5 +99,22 @@ html {
  *            THEMES          *
  ****************************** */
 /* ---------  BG IMG  ----------- */
+.bgimg-desktop-woman {
+  background: #FFF url(./images/illustration-woman-online-desktop.svg) no-repeat center/cover; }
+
+.bgimg-desktop-woman__box {
+  background: #FFF url(./images/illustration-box-desktop.svg) no-repeat center/cover; }
+
+.bgimg-desktop-woman__pattern {
+  background: #FFF url(./images/bg-pattern-desktop.svg) no-repeat center/cover; }
+
+.bgimg-mobile-woman {
+  background: #FFF url(./images/illustration-woman-online-mobile.svg) no-repeat center/cover; }
+
+.bgimg-mobile-woman__patterns {
+  background: #FFF url(./images/bg-pattern-mobile.svg) no-repeat center/cover; }
+
+.bgimg-arrow-down {
+  background: #FFF url(./images/icon-arrow-down.svg) no-repeat center/cover; }
 
 /*# sourceMappingURL=style.css.map */
